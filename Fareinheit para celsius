@@ -1,0 +1,10 @@
+algoritmo "Fahrenheit para celsius"
+var
+   cel,fah,S:Real
+inicio
+      Escreva("quantos fahrenheit está medindo no momento?")
+      Leia(fah)
+      cel<-fah-32
+      S<-cel/1.8
+      Escreva("então estaria ",S, "")
+fimalgoritmo
