@@ -1,0 +1,19 @@
+algoritmo "semnome"
+var
+   conta,valor,total10,soma_dos_impares:inteiro
+inicio
+   total10<-0
+   soma_dos_impares<-0
+   para conta<-1 ate 6 faca
+      escreva("Digite um valor:")
+      leia(valor)
+      se (valor>=0) e (valor<=10) entao
+         total10<-total10+1
+         se (valor%2=1) entao
+             soma_dos_impares<-soma_dos_impares+valor
+         fimSe
+      fimSe
+   fimPara
+   escreval("Ao todo foram ",total10," valores entre 0 e 10")
+   escreval("Nesse intervalo, a soma de impares foi de",soma_dos_impares)
+fimalgoritmo
